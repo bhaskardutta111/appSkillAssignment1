@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*******************RESET ENDS********************/
+
+*{
+    box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body{
+    font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.4;
+
+}
+
+/**********header-section**********/
+.header-section{
+    border: 1px solid #000;
+    max-width: 100%;
+    text-align: center;
+
+}
+.header-label{
+    font-size: 22px;
+    line-height: 2;
+    margin: 10px;
+    padding: 10px;
+}
+
+/**********header-section**********/
+.hero-section{
+    border: 1px solid #000;
+    max-width: 100%;
+}
+.hero-section-flex{
+    display: flex;  
+    flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.hero-left-section{
+    border: 1px solid #000;
+    font-size: 20px;
+    line-height: 2;
+    flex-basis: 30%;
+    height: 400px;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
+.left-section-header h2{
+    font-size: 20px;
+    line-height: 2;
+    margin: 10px;
+    text-align: center;
+
+}
+.left-section-details{
+    scroll-behavior: [ auto | smooth ];
+
+}
+
+scroll-behavior: [ auto | smooth ];
+
+.hero-center-section{
+    border: 1px solid #000;
+    flex-basis: 40%;
+    
+}
+.center-section-video{
+    max-width: 100%;
+}
+.hero-right-section{
+    border: 1px solid #000;
+    flex-basis: 30%;
+    
+}
+.form-header h2{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2;
+    margin: 15px;
+    text-align: center;
+
+}
+form{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 2;
+}
+.lab1{
+    padding: 20px;
+    margin: 10px;
+}
+.inp1, .inp2{
+    padding: 20px;
+    margin: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.submit{
+    margin: 30px 60px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background: #fff;
+    cursor:pointer;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+.hero-bottom-section{
+    margin-top: 10px;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 2;
+}
+.hero-bottom-section p{
+    margin: 30px;
+    padding: 10px;
+}
+
+/**********footer**********/
+.footer{
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+}
+.footer-para p{
+    margin: 10px;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
