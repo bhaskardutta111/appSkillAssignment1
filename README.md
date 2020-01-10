@@ -1,2 +1,2 @@
-# appSkillAssignment1
-Assignment from appSkill. Problem 1
+# appSkillAssignment2
+Assignment from appSkill. Problem 2
